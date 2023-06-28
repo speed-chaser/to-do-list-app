@@ -1,0 +1,81 @@
+body {
+    background-color: beige;
+}
+
+header {
+    text-align: center;
+}
+h3{
+    width: 440px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    display: inline-block;
+}
+input {
+    padding: 4px 15px 4px 5px;
+}
+
+#button {
+    display: inline-block;
+    text-align: center;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+ol {
+    padding-left: 15px;
+}
+
+ol li {
+    padding: 5px;
+}
+
+#list {
+    background-color: rgb(169, 153, 125);
+    user-select: none;
+    width: 200px;
+    height: 350px;
+    border: 2px solid rgb(121, 97, 69);
+    margin: auto;
+    margin-top: 24px;
+}
+
+#list li {
+    width: 95%;
+}
+
+.strikethrough {
+text-decoration: line-through;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.delete{
+    display: none;
+}
+
+li > button {
+    border: none;
+    background: none;
+    float: right;
+    color: black;
+    font-weight: 700;
+}
+
+li > button:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
