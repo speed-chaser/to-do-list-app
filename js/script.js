@@ -24,4 +24,7 @@ const newItem = () => {
 
 
     $('#list').sortable();
+
 }    
+
+console.log();
